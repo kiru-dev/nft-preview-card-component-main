@@ -1,0 +1,145 @@
+$color-1 : hsl(215, 51%, 70%);
+$color-2 : hsl(178, 100%, 50%);
+$bg-color-1 : hsl(217, 54%, 11%);
+$bg-color-2 : hsl(216, 50%, 16%);
+$color-3 : hsl(215, 32%, 27%);
+$color-4 : hsl(0, 0%, 100%);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: $bg-color-1;
+    font-size: 18px;
+
+}
+
+#box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $bg-color-2;
+    padding: 20px;
+    border-radius: 3%;
+    max-width: 345px;
+}
+
+#nft-img
+{
+    width: 305px;
+    height: 295px;
+    border-radius: 2%;
+    margin: auto;
+    display: block;
+}
+
+h1
+{
+    font-family: 'Outfit', sans-serif;
+    color: $color-4;
+    font-weight: 600;
+    font-size: 19px;
+    margin: 20px 0;
+}
+
+p
+{
+    font-family: 'Outfit', sans-serif;
+    color: $color-1;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@mixin flex 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#ethereum, #days
+{
+    @include flex();
+    align-items: center;
+}
+
+svg
+{
+    margin-right: 8px;
+}
+
+#ethereum
+{
+    span
+    {
+        font-family: 'Outfit', sans-serif;
+        color: $color-2;
+        font-weight: 600;
+        font-size: 16px;
+    }
+}
+
+#days
+{
+    span
+    {
+        font-family: 'Outfit', sans-serif;
+        color: $color-1;
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+#flex
+{
+    @include flex();
+    justify-content: space-between;
+    padding: 23px 0;
+    border-bottom: 2px $color-3 solid;
+}
+
+#avatar
+{
+    @include flex();
+    align-items: center;
+}
+
+#avatar
+{
+    img
+    {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px $color-4 solid;
+        margin: 20px 15px 8px 0;
+    }
+
+    span 
+    {
+        font-family: 'Outfit', sans-serif;
+        color: $color-1;
+        font-weight: 400;
+        font-size: 16px;
+        @include flex();
+        align-items: center;
+        letter-spacing: 0.5px;
+        margin: 20px 0px 8px 0;
+    }
+
+    p
+    {
+        font-family: 'Outfit', sans-serif;
+        color: $color-1;
+        font-weight: 400;
+        font-size: 16px;
+        margin-left: 5px;
+    }
+}

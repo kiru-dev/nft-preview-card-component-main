@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d192b;
+  font-size: 18px;
+}
+
+#box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #14253d;
+  padding: 20px;
+  border-radius: 3%;
+  max-width: 345px;
+}
+
+#nft-img {
+  width: 305px;
+  height: 295px;
+  border-radius: 2%;
+  margin: auto;
+  display: block;
+}
+
+h1 {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 19px;
+  margin: 20px 0;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  color: #8bacda;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#ethereum, #days {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+svg {
+  margin-right: 8px;
+}
+
+#ethereum span {
+  font-family: "Outfit", sans-serif;
+  color: #00fff7;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#days span {
+  font-family: "Outfit", sans-serif;
+  color: #8bacda;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 23px 0;
+  border-bottom: 2px #2f415b solid;
+}
+
+#avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#avatar img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px white solid;
+  margin: 20px 15px 8px 0;
+}
+#avatar span {
+  font-family: "Outfit", sans-serif;
+  color: #8bacda;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 0.5px;
+  margin: 20px 0px 8px 0;
+}
+#avatar p {
+  font-family: "Outfit", sans-serif;
+  color: #8bacda;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5px;
+}/*# sourceMappingURL=styles.css.map */
