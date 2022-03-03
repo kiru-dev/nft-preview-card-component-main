@@ -15,7 +15,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: https://your-solution-url.com
+- Solution URL: https://www.frontendmentor.io/solutions/nft-card-using-html-rqiaY855z
 - Live Site URL: https://kiru-dev.github.io/nft-preview-card-component-solution
 
 ### Built with
