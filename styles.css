@@ -46,7 +46,7 @@ body {
   position: relative;
 }
 
-#img-box:active #overlay-text {
+#img-box:hover #overlay-text {
   cursor: pointer;
   opacity: 1;
 }
@@ -61,9 +61,6 @@ h1 {
 
 h1:hover {
   cursor: pointer;
-}
-
-h1:active {
   color: #00fff7;
 }
 
@@ -138,7 +135,5 @@ p {
 }
 #avatar p:hover {
   cursor: pointer;
-}
-#avatar p:active {
   color: #00fff7;
 }/*# sourceMappingURL=styles.css.map */

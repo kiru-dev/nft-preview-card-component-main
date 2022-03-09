@@ -60,7 +60,7 @@ body
     position: relative;
 }
 
-#img-box:active 
+#img-box:hover
 {
     #overlay-text
     {
@@ -81,10 +81,6 @@ h1
 h1:hover
 {
     cursor: pointer;
-}
-
-h1:active
-{
     color: $color-2;
 }
 
@@ -187,10 +183,6 @@ p
     p:hover
     {
         cursor: pointer;
-    }
-
-    p:active
-    {
         color: $color-2;
     }
 }
